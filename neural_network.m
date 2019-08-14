@@ -1,5 +1,5 @@
 function G = neural_network(input)
-  %input = [Zeff; Zeff0; ZZ0; Z0oZ; lnnfree; nfreeontot; EoED; log(T)];
+  %input = [Zeff; Zeff0; Z0oZ; ZZ0; lnnfree; nfreeontot; EoED; log(T)];
   % Normalization data.
   i_std = [4.96121897262; 5.58308339503; 0.195384621847; 4.98281996514; 2.45185472351; 0.304090526425; 0.0345813696948; 2.28862902169];
   i_mean = [7.1561340244; 9.20374749346; 0.105979895644; 7.08910012241; 47.8203654981; 0.536347788327; 0.0699809427188; -9.4087288982];
